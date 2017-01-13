@@ -12,6 +12,10 @@ node('java18') {
                 sh 'mvn clean test'
             }
 
+            stage('Publish') {
+                sh 'mvn deploy'
+            }
+
         } catch (e) {
             println "THE BUILD FAILED"
             throw e
