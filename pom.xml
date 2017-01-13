@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.tqxr.utilities</groupId>
-    <artifactId>console-colorizer</artifactId>
+    <groupId>com.tabcorp.qa.utilities</groupId>
+    <artifactId>qa-console-colorizer</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>ANSI Colorizer</name>
     <description>Colorize strings for console output</description>
-    <url>https://tqxr.net/utilities</url>
+    <url>https://artifacts.tabdigital.com.au</url>
     <inceptionYear>2016</inceptionYear>
 
     <properties>
